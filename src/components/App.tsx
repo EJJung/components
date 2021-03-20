@@ -51,7 +51,7 @@ export const App: React.VFC = () => (
     </nav>
 
     <Switch>
-      <Route exact path="/" component={Home} />
+      <Route exact path="/components" component={Home} />
       <Route exact path="/example" component={ExampleComponent} />
       <Route
         exact
